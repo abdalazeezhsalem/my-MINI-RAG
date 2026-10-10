@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4105fec6-c979-4ff7-81ce-c49f17138942" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.github/.workflows/deploy-develop.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/env/.env.example.app" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/env/.env.example.grafana" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/env/.env.example.postgres" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/env/.env.example.postgres-exporter" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/env/.env.example.rabbitmq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/env/.env.example.redis" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/minirag.service" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/minirag/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/minirag/alembic.example.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/minirag/entrypoint.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/nginx/default.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/prometheus/prometheus.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/rabbitmq/rabbitmq.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/.env.example" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/mini-rag-app.postman_collection.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/celery_app.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/BaseController.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/DataController.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/NLPController.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/ProcessController.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/ProjectController.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/flowerconfig.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/helpers/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/helpers/config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/AssetModel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/BaseDataModel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/ChunkModel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/ProjectModel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/db_schemes/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/db_schemes/minirag/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/db_schemes/minirag/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/db_schemes/minirag/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/db_schemes/minirag/alembic.ini.example" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/db_schemes/minirag/alembic/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/db_schemes/minirag/alembic/env.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/db_schemes/minirag/alembic/script.py.mako" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/db_schemes/minirag/alembic/versions/243ca8b683b0_update_celery_task_executions_table_.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/db_schemes/minirag/alembic/versions/b9f9e870b09b_create_celery_task_executions_table.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/db_schemes/minirag/alembic/versions/fee4cd54bd38_initial_commit.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/db_schemes/minirag/schemes/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/db_schemes/minirag/schemes/asset.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/db_schemes/minirag/schemes/celery_task_execution.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/db_schemes/minirag/schemes/datachunk.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/db_schemes/minirag/schemes/minirag_base.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/db_schemes/minirag/schemes/project.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/enums/AssetTypeEnum.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/enums/DataBaseEnum.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/enums/ProcessingEnum.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/enums/ResponseEnums.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/enums/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/base.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/data.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/nlp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/schemes/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/schemes/data.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/schemes/nlp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stores/llm/LLMEnums.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stores/llm/LLMInterface.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stores/llm/LLMProviderFactory.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stores/llm/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stores/llm/providers/CoHereProvider.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stores/llm/providers/OpenAIProvider.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stores/llm/providers/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stores/llm/templates/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stores/llm/templates/locales/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stores/llm/templates/locales/ar/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stores/llm/templates/locales/ar/rag.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stores/llm/templates/locales/en/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stores/llm/templates/locales/en/rag.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stores/llm/templates/template_parser.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stores/vectordb/VectorDBEnums.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stores/vectordb/VectorDBInterface.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stores/vectordb/VectorDBProviderFactory.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stores/vectordb/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stores/vectordb/providers/PGVectorProvider.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stores/vectordb/providers/QdrantDBProvider.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stores/vectordb/providers/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tasks/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tasks/data_indexing.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tasks/file_processing.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tasks/maintenance.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tasks/process_workflow.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/idempotency_manager.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/metrics.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="3KMw85GhezlFSD2UbxauaZCmtoK" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "tut-017",
+    "last_opened_file_path": "/Users/macbookair/mini-rag-app",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-eebebe6c2be4-b11f5e8da5ad-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.15325.20" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4105fec6-c979-4ff7-81ce-c49f17138942" name="Changes" comment="" />
+      <created>1791380582977</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1791380582977</updated>
+      <workItem from="1791380584467" duration="227000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
