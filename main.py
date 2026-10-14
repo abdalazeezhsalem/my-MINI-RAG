@@ -1,10 +1,15 @@
 from fastapi import FastAPI
+from dotenv import load_dotenv
+
+load_dotenv(".env")
+
+
+# 2\. استيراد الراوتر بعد تحميل المتغيرات 
+from routes.base import base_router
+
 
 # إنشاء أوبجكت تطبيق FastAPI
 app = FastAPI()
 
-# تعريف Route من نوع GET على المسار /welcome
-@app.get("/welcome")
-def welcome():
-    return {"message": "Hello World"}
-
+# 3\. تضمين الراوتر الفرعي داخل التطبيق الرئيسي 
+app.include_router(base_router)
